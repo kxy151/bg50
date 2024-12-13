@@ -1,0 +1,562 @@
+/* ===============================Responsive Design Start======================================= */
+
+@media (max-width: 1500px) {
+  .banner-area, .banner-bottom-area{
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1170px) {
+    .banner-area, .banner-bottom-area{
+      width: 100%;
+    }
+    .intro-slider {
+        width: calc((100%) - 320px);
+    }
+    .intro-game ul li{
+        width:16.4%;
+    }
+    .slide-caption h1{
+        font-size:34px;
+    }
+    .slide-caption h3 {
+        font-size: 20px;
+        margin: 12px auto;
+    }
+
+    .rem-txt {
+        float: right;
+        width: 86%;
+        margin-top: 8px;
+    }
+
+    .faq-list li a,
+    .sports-list li a {
+        font: normal 12px 'Open Sans', Arial, Helvetica, sans-serif;
+        padding: 10px 10px 10px 40px
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    #main-menu ul.menu2 {
+        padding-left: 130px;
+    }
+    .open-cell.slenkama-lentele {
+        overflow: auto;
+    }
+
+    .rem-txt {
+        float: right;
+        width: 86%;
+        margin-top: 8px;
+    }
+    .blue-box h5 {
+        font: 500 14px 'Open Sans', Arial, Helvetica, sans-serif;
+        color: #81a8cd;
+        text-transform: uppercase;
+        margin: 10px
+    }
+    .login-input {
+        background: #161616;
+        border: 1px solid #626161;
+        width: 140px;
+        border-radius: 5px;
+        font: 500 18px 'Open Sans', Arial, Helvetica, sans-serif;
+        color: #cdcdcd;
+        padding: 8px 8px 8px 30px;
+        margin: 0 0 5px
+    }
+
+   
+}
+
+
+@media (max-width: 767px) {
+    header{
+        background-image: url(../img/nav_bg_streep-sm.png);
+        height:85px;
+    }
+    #main{
+        margin:0;
+    }
+    .container{
+        padding: 0 5px;
+    }
+    .content-main{
+        padding-right:0!important;
+    }
+  
+    .header__mobile {
+      position: relative;
+      height: 70px;
+      background: rgba(221,221,221,.7);
+      display: block;
+    }
+    #mobileMenu {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      left: 10px;
+    }
+    #mobileLogin{
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      right: 10px;
+      padding:5px;
+      border:none;
+    }
+    .header__logo {
+      position: absolute;
+      display: block;
+      top: 36px;
+      color: #fff;
+      left: 50%;
+      width: 184px;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+    }
+    #login-btn {
+        text-align: center;
+        float: none;
+    }
+    .submenu {
+        height: 34px;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+    .promo-item{
+        margin-bottom: 10px;
+    }
+    .intro-game ul li , .casino-game-item{
+        width: 49%;
+        margin-bottom: 15px;
+        margin:1px;
+    }
+    #main-menu ul.menu2 {
+        padding-left: 184px;
+    }
+    #mobile-view {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 9999;
+        width: 100vw;
+        height: 100vh;
+        display: none;
+        overflow: auto;
+        background: #0F0F0F;
+    }
+    .user-tools .blue-box {
+        padding-right: 0px;
+        border-right: none;
+    }
+    .sidebar-loged-user,
+    .content-main.user-loged {
+        width: 100%;
+    }
+
+    #UserDisplayForm {
+        text-align: center;
+    }
+
+    .clock, #submenu {
+        display: none;
+    }
+    .rem-txt {
+        float: right;
+        width: 86%;
+        margin-top: 8px;
+    }
+    #main-menu ul li a {
+        display: block;
+        padding: 16px 12px;
+        font: 500 14px 'Open Sans', Arial, Helvetica, sans-serif;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: -1px
+    }
+
+    #backToTop {
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        background: transparent;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        color: #00adb5;
+        display: none;
+        transition: all 600ms ease 0s;
+        z-index: 9999;
+    }
+
+    #main-menu,
+    .desktop-view {
+        display: none;
+    }
+   
+    .icon--menu {
+        cursor: pointer;
+    }
+    .icon__self {
+        display: block;
+    }
+    .icon__self {
+        display: block;
+        color: #fff;
+        font-size: 24px;
+    }
+    .icon_close {
+        display: none;
+        color: #fff;
+        font-size: 24px;
+    }
+    #mobile-view ul#navbarSupportedContent {
+        width: 100%;
+        list-style: none;
+        border-bottom: 1px solid #505050;
+        padding-bottom: 50px;
+    }
+    #mobile-view ul#navbarSupportedContent li a {
+        position: relative;
+        display: block;
+        font-size: 16px;
+        color: #fff;
+        line-height: 1;
+        padding: 15px 15px;
+        text-transform: uppercase;
+        background: #333333;
+        margin-bottom: 6px;
+    }
+    #mobile-view ul#navbarSupportedContent li a:after {
+        position: absolute;
+        content:"\f105";
+        top: 12px;
+        right: 15px;
+        padding: 2px;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 999;
+        color:#fff;
+    }
+    ul#navbarSupportedContent li #signin-button{
+        display: inline-block;
+        padding: 12px 12px;
+        font-size: 15px;
+        transition: all 0.3s ease-in-out 0s;
+        color: #fff;
+        text-transform: uppercase;
+        border: none;
+        width: 100%;
+        background: #333;
+        text-align: left;
+        position:relative;
+    }
+    ul#navbarSupportedContent li #signin-button::after {
+        position: absolute;
+        content: "\f105";
+        top: 12px;
+        right: 15px;
+        padding: 2px;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 999;
+        color: #fff;
+    
+    }
+    .lang ul.sub-menu {
+        top: 100%;
+        left: 0;
+    }
+    #loged {
+        padding: 32px;
+        position: initial;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+    .usr-pl {
+        margin-left: 20px;
+        margin-top:12px;
+        color:#444;
+    }
+    .usr-pl a, .usr-mo{
+        margin-top:12px;
+        
+    }
+    .usr-pl a{
+        padding-left: 5px;
+    }
+    .usr-btn{
+        margin-top:10px;
+    }
+    
+    .top-reg {
+        margin-left: 15px;
+    }
+    .login-input {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .contact-blue-box {
+        width: 100%;
+    }
+    #login-form.Mobile-view {
+        display: block;
+    }
+    #login-form.Desktop-view {
+        display: None;
+    }
+    
+    .virtual-item {
+        width: 48%;
+    }
+    .tbl-cell1, .tbl-cell2 {
+        float: left;
+        width: 100%;
+    }
+    .ttime {
+        padding: 2px 2px 2px 0px;
+    }
+    .footer-pay-way p{
+        width: 98%;
+        margin: 0 auto;
+    }
+        .flex-box, .flex-box > *, .features header ul{
+        display: block;
+    }
+    .user-registration .label-txt, .user-reset .label-txt {
+        color: #666;
+        float: left;
+        display: inline-block;
+        margin-left: 16px;
+        width:100%;
+        text-align: left;
+    }
+    .user-registration .sm3 {
+        float: none;
+        width: 30%;
+        margin: 0;
+    }
+    
+    .user-registration, .user-reset {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .user-content {
+        padding: 40px 20px;
+        margin: 0;
+    }
+    .promotion_main{
+        width:100%;
+    }
+    .casino-menu-submenu-buttons-container{
+        display:block;
+    }
+    .casino-menu-submenu-buttons-container li{
+        display:inline-block;
+    }
+    .casino_slider .item{
+        height:30vh;
+        background-size: cover !important;
+        width: 100vw;
+    }
+    .slick-prev, .slick-next{
+        width:8%;
+    }
+    .BannerArea{
+        padding:64px 0 0;
+    }
+
+    .slick-prev:before{
+        left: 0;
+    }
+    .slick-next::before {
+        right: 0;
+    }
+    .casino-menu-submenu-buttons-container li {
+    	color: #e7e7e7;
+    	padding: 0 2px;
+    	border-top: 2px solid transparent;
+    }
+  
+    
+    
+}
+
+
+
+
+@media (max-width: 480px) {
+    
+    .form-inputs1,
+    .form-inputs2,
+    .form-submit {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .top-reg {
+        float: none;
+        text-align: center;
+    }
+
+   
+    .rem-txt {
+        float: right;
+        width: 86%;
+        margin-top: 8px;
+    }  
+    #main-menu ul li a {
+        display: block;
+        padding: 16px 12px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: -1px
+    }
+
+    .big-tbl td {
+        padding: 6px;
+        text-align: center;
+    }
+    
+    .top-head,
+    .mid-head {
+        margin: 0 0 20px;
+    }
+    .small-tbl td {
+        padding: 4px;
+    }
+    .tbl-cell1,
+    .tbl-cell2 {
+        width: 100% !important
+    }
+    .big-tbl {
+        width: 100%;
+    }
+
+    .tstamp {
+        margin: -5px auto;
+    }
+    .slider-box .small-tbl td {
+        text-align: right;
+    }
+
+    .box-w2 {
+        width: 100%;
+        border-right: none;
+    }
+    .btv.right span {
+        width: 49%;
+    }
+    .box-w3 {
+        min-width: 49%;
+        border: none;
+    }
+    .box-w4 {
+        border: none;
+        display: flex;
+        width: 100%;
+        padding: 5px 0;
+        margin: 10px 0;
+        border-bottom: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+    }
+    .box-w4 a {
+        margin: 0px auto 0;
+    }
+    a.add-plus {
+        padding: 4px;
+    }
+    .form-submit {
+        float: none;
+        text-align: center;
+    }
+    #login-form a {
+        color: #17BDFE;
+        margin: 10px 0;
+        display: block;
+    }
+    #login-form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #main-menu ul li a .menco {
+        display: inline-block !important;
+    }
+    .bets-panel .pakelti {
+        margin-top: 0px;
+        float: left;
+    }
+    .lmb {
+         margin: 0px;
+    }
+    .clock-gray {
+        display: none
+    }
+    .slider-box h1 {
+        font-size: 18px;
+    }
+    .tstamp {
+        background: none
+    }
+
+    .tgl-small-table tr td {
+        padding: 10px 5px;
+        font-size: 10px;
+    }
+    a.plus {
+        height: 35px !important
+    }
+    .rememberme {
+        display: block;
+        margin-bottom: 10px
+    }
+
+    #UserSettingsForm select, #UserSettingsForm .label-txt {
+        width: 100%;
+    }
+    .footer-menu {
+        float: left;
+    }
+    .footer-menu li:first-child a{
+        padding-left:0px;
+    }
+    .virtual-item{
+        width: 49%;
+        margin:1px;
+    }
+
+    .welcome-promo .promo-product .product-features {
+        padding: 10px 16px;
+        margin: 5px 15px;
+    }
+    .read-more img {
+        position: inherit;
+        bottom: 0;
+        width: 48px;
+        left: 50%;
+        margin-left: -25px;
+    }
+    .promotion_title{
+        font-size:30px;
+    }
+    .casino-menu-submenu-buttons-container {
+        display: none;
+    }
+    .user-content .user-login{
+        width: 100%;
+    }
+
+
+
+
+    
+}
